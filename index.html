@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      body {
+        background: lightgray;
+      }
+      .primeiro {
+        background: blue;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        border-radius: 15px;
+      }
+      .segundo {
+        background: white;
+        color: black;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      h1 {
+        margin: 0;
+      }
+      h2 {
+        margin: 0;
+      }
+      h3{
+      font-size: 25px;
+      margin-bottom:5px;
+      }
+      h4{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 5px;
+      }
+      p{
+        font-size:15px;
+        margin-left: 5px;
+        margin-bottom: 5px;      
+      }
+      img{
+        width: 100px;
+        border-radius: 5px;
+        float:right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="primeiro">
+      <h1>AcessoFood</h1>
+      <h2>Monte seu lanche em 15 minutos!</h2>
+    </div>
+    <h3> Primeiro, seu Prato! <h3>
+    <div class="segundo" onclick="alert()">
+      <img src = "https://t2.uc.ltmcdn.com/pt/images/0/5/2/como_fazer_frango_a_passarinho_10250_600_square.jpg";
+      />
+      <h4> Frango a passarinho </h4>
+      <p> Salada, Arroz e Batata.</p>
+      <p><strong> R$25,00 </strong></p>
+    </div>
+    <div class="segundo">
+      <img src = "https://media-cdn.tripadvisor.com/media/photo-s/11/cc/ea/35/carne-de-sol-com-batata.jpg"
+      />
+      <h4> Carne do sol com Fritas</h4>
+      <p> Arroz, Farofa, Vinagrete e Batatas. </p>
+      <p><strong> R$ 40,00 </strong></p>
+    </div>
+  </body>
+</html>
